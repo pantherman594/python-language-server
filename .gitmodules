@@ -1,0 +1,3 @@
+[submodule "python-language-server"]
+	path = python-language-server
+	url = git@github.com:microsoft/python-language-server.git

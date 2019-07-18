@@ -1,0 +1,29 @@
+{
+  "identifier": "org.zowe.languageserver.python",
+  "apiVersion": "1.0.0",
+  "pluginVersion": "1.0.0",
+  "pluginType": "application",
+  "dataServices": [
+    {
+      "type": "router",
+      "name": "ls",
+      "filename": "pythonLS.js",
+      "routerFactory": "pythonLSRouter",
+      "dependenciesIncluded": true,
+      "initializerLookupMethod": "external",
+      "version": "1.0.0"
+    }
+  ],
+  "configurationData": {
+    "resources": {
+      "requests": {
+        "aggregationPolicy": "override",
+        "subResources": {
+          "app": {
+            "aggregationPolicy": "override"
+          }
+        }
+      }
+    }
+  }
+}
