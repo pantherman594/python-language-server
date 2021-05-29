@@ -16,7 +16,7 @@
     "vscode-json-languageservice": "^3.3.0",
     "vscode-languageserver": "^5.2.1",
     "vscode-ws-jsonrpc": "0.0.2-2",
-    "ws": "^7.0.1"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.27",
